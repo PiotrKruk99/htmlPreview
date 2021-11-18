@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-from os import path
 from os.path import isfile
 from os.path import abspath
 from os.path import getmtime
