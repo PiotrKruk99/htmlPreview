@@ -22,7 +22,6 @@ def toFloat(value):
 parser = ArgumentParser()
 parser.description = 'Script for opening in browser and autorefreshing html file on change.'
 parser.add_argument('name', help='html file to be open')
-#parser.add_argument('-r', '--rate', type=float, default=2.0, help='time between file state check in seconds')
 parser.add_argument('-r', '--rate', type=toFloat, default=2.0,
                     help='time between file state checks in seconds, only float non negative numbers acceptable')
 
